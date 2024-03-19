@@ -1,0 +1,18 @@
+POST http://localhost:3000/api/links
+Content-Type: application/json
+
+{
+    "code": "teste",
+    "url": "https://www.teste.com"
+}
+
+###
+
+GET http://localhost:3000/api/links
+
+###
+
+GET http://localhost:3000/teste
+
+###
+GET http://localhost:3000/api/metrics
